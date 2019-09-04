@@ -1,0 +1,50 @@
+html{
+	font-size: 20px;
+	font-family: 'Libre Caslon Display', serif;
+}
+
+.sign{
+	display: flex;
+	flex-direction: row;
+	border-width: 500px;
+}
+.fn{
+	width: 250px;
+	height: 30px;
+	margin-bottom: 30px;
+	border-radius: 4px;
+	box-shadow: 2px 2px 5px grey;
+}
+
+#vid{
+	margin-right: 70px;
+	text-decoration: none;
+	border:none;
+}
+#space{
+	width: 450px;
+}
+.whole{
+	margin-top: 150px;
+	margin-left: 250px;
+}
+#text{
+	margin-top: -100px;
+	margin-bottom: 50px;
+}
+button{
+	margin-top: 15px;
+	background-color: #3cb371;
+	width:100px;
+    height:50px;
+    border: 1px solid #3cb371;
+    border-radius: 4px;
+}
+a{
+	text-decoration: none;
+	color:white;
+}
+a:hover{
+	text-decoration: underline;
+}
+

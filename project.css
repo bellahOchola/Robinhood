@@ -1,0 +1,183 @@
+@media only screen and (max-width:700px){
+
+    #cash{
+       width: 100%;
+       margin-left: -30px;
+    }
+    body{
+       width: 100%;
+   }
+   #bImage{
+       display: none;
+   }
+   ul li:last-child{
+       /* position: relative;
+       right: -500px; */
+       /* top:20px; */
+       display: none;
+   }
+   
+   ul li:nth-child(4){
+       position: relative;
+       left: 20px;
+       /* top:20px; */
+   }
+   
+   .stock{
+       position: relative;
+       bottom: 0px;
+       display: flex;
+       flex-wrap: nowrap;
+       margin-right: 0px;
+       margin-left: 0px;
+   }
+   
+   }
+   html{
+       font-family: 'Libre Caslon Display', serif;
+   }
+   
+   
+   nav{
+       max-width:80%;
+       margin:0 auto;
+       margin-right: 0;
+       position: absolute;
+       top:0; 
+   }
+   
+   ul{
+       text-align: right;
+   }
+   
+   li{
+       display: inline-block;
+   }
+   
+   nav>ul>li>a{
+       padding: 20px;
+       text-decoration: none;
+       color:black;
+       display:block;
+       font-size: 20px;
+       font-weight: bold;
+   }
+   
+   nav>ul>li>a:hover{
+       text-decoration: underline;
+       color:green;
+   }
+   
+   .b, .last{
+       display:flex;
+   }
+   
+   .main{
+       /* font-style: Times New Roman; */
+       font-size: 20px;
+       margin-left: 30px;
+       margin-top: 250px;
+   
+   }
+   
+   button{
+       background-color: #3cb371;
+       width:100px;
+       height:50px;
+       border: 1px solid #3cb371;
+       border-radius: 25px;
+   }
+   
+   a{
+       color: white;
+       font-size: 20px;
+       text-decoration: none;
+   }
+   
+   a:hover{
+       text-decoration: underline;
+   }
+   
+    ul li:last-child{
+        position: relative;
+        right: -500px;
+        /* top:20px; */
+    }
+   
+    ul li:nth-child(4){
+        position: relative;
+        right: -400px;
+        /* top:20px; */
+    }
+   
+    #bImage{
+        position: relative;
+        top:30px;
+        /* right:50px; */
+    }
+   
+    .stock{
+        position: relative;
+        bottom: 0px;
+        display: flex;
+        flex-wrap: nowrap;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    
+    #about{
+        /* border:1px solid grey; */
+        box-shadow: 2px 2px 5px grey;
+        margin-right: 10px;
+        width: 50%;
+        text-align: center;
+    }
+   
+   .image{
+       margin-bottom:30px;
+       margin-top: 20px;
+   }
+   
+   p{
+       font-size: 20px;
+       /* font-family: monospace; */
+       text-align: center;
+   }
+   
+   #cash{
+       /* background-image: url("https://images.freecreatives.com/wp-content/uploads/2016/04/Silver-Stripes-Tiger-Circle-Logo-.jpg"); */
+       /* background-size: cover; */
+       background-color: black;
+       /* height: 150px; */
+       color: white;
+       text-align: center;
+        width:100%; 
+       height: auto;
+       /* margin-right:30px; 
+       margin-left: 30px; */
+        /* margin: 100px 30px 100px 30px; */
+       
+       /* box-shadow: 2px 2px 5px rgb(243, 241, 241); */
+   
+   }
+    
+   #foot{
+       display: inline-block;
+       border-radius: 60px;
+       box-shadow: 0px 0px 2px #888;
+       padding: 0.5em 0.6em;
+   }
+   
+   .proj{
+       text-align: center;
+       margin-bottom: 0;
+       margin-top: 100px;
+       
+   }
+   
+   .pit{
+        font-size:15px;
+        /* margin-top: -10px; */
+   }
+   
+   
