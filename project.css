@@ -35,13 +35,14 @@
    }
    html{
        font-family: 'Libre Caslon Display', serif;
+       /* width:80%; */
    }
    
    
    nav{
-       max-width:80%;
-       margin:0 auto;
-       margin-right: 0;
+       /* max-width:80%; */
+       /* margin:0 auto; */
+       /* margin-right: 0; */
        position: absolute;
        top:0; 
    }
@@ -94,7 +95,8 @@
        text-decoration: none;
    }
    
-   a:hover{
+   
+    a:hover{
        text-decoration: underline;
    }
    
@@ -141,7 +143,7 @@
    p{
        font-size: 20px;
        /* font-family: monospace; */
-       text-align: center;
+       /* text-align: center; */
    }
    
    #cash{
@@ -151,11 +153,12 @@
        /* height: 150px; */
        color: white;
        text-align: center;
-        width:100%; 
+        width:90%; 
        height: auto;
-       /* margin-right:30px; 
-       margin-left: 30px; */
-        /* margin: 100px 30px 100px 30px; */
+       margin-right:30px; 
+       margin-left: 30px;
+        margin-top:100px;
+        margin-bottom:100px;
        
        /* box-shadow: 2px 2px 5px rgb(243, 241, 241); */
    
